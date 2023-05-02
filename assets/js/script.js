@@ -15,7 +15,7 @@ form.addEventListener('submit', function(event) { //Adicionando o evento de "esc
     }
 
     if (!altura) {
-        setResultado('Altura inválida', false);
+        setResultado('Altura inválida!', false);
         return;
     }
     
