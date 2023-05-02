@@ -96,11 +96,11 @@ html {
     display: flex;
     justify-content: center;
     align-items: center;
-    padding-top: 1rem;
+    padding-top: 1.5rem;
 }
 
 .form-content-button button {
-    padding: 0.3rem;
+    padding: 0.5rem;
     border-radius: 0.3rem;
     border: none;
 }
