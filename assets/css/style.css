@@ -20,7 +20,7 @@ html {
 }
 
 .section {
-    width: 32rem;
+    width: 65rem;
     max-height: 100vh;
     margin: 2rem auto;
     background-color: #ffffff10;
@@ -34,7 +34,7 @@ html {
     text-align: center;
     text-transform: uppercase;
     padding: 0.5rem 0;
-    font-size: 1.4rem;
+    font-size: 3rem;
 }
 
 .header-content {
@@ -45,13 +45,13 @@ html {
 .header-content h2 {
     text-align: left;
     text-transform: uppercase;
-    font-size: 1.2rem;
+    font-size: 2.5rem;
     padding: 0.5rem 0;
 }
 
 .header-content p {
     text-align: left;
-    font-size: 1.2rem;
+    font-size: 2rem;
 }
 
 .form {
@@ -67,6 +67,7 @@ html {
 }
 
 .form legend {
+    font-size: 1.6rem;
     padding: 0.5rem 0;
 }
 
@@ -74,18 +75,19 @@ html {
     display: block;
     padding: 0.5rem 0;
     cursor: pointer;
+    font-size: 2rem;
 }
 
 .form-content input {
     width: 15rem;
-    height: 1.5rem;
+    height: 2rem;
     border: none;
     border-radius: 0.3rem;
 }
 
 .form-content input::placeholder {
-    font-size: 1rem;
-    padding-left: 0.3rem;
+    font-size: 1.2rem;
+    padding-left: 0.5rem;
 }
 
 .form-content-button {
@@ -109,13 +111,17 @@ html {
 .paragrafo-resultado-true {
     background: #68faa5;
     color: var(--white-color);
-    font-size: 1.2rem;
+    font-size: 2rem;
+    padding: 0 0.5rem;
+    border-radius: 0.3rem;
 }
 
 .paragrafo-resultado-false {
-    background: #fa31314d;
+    background: #ff202073;
     color: var(--white-color);
-    font-size: 1.2rem;
+    font-size: 2rem;
+    padding: 0 0.5rem;
+    border-radius: 0.3rem;
 }
 
 .resultado-content {
@@ -124,5 +130,5 @@ html {
     align-items: center;
     padding: 0.5rem 0;
     text-align: center;
-    font-size: 1.2rem;
+    font-size: 2rem;
 }
