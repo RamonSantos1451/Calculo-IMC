@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Calcular IMC</title>
+    <link rel="stylesheet" href="./assets/css/style.css">
+</head>
+
+<body class="background">
+    <section class="section">
+        <header class="header">
+            <h1 class="title-header">tabela do índice de massa corporal</h1>
+
+            <div class="header-content">
+                <div class="imc">
+                    <h2>imc</h2>
+                    <p>Abaixo de 18.5</p>
+                    <p>Entre 18.6 e 24.9</p>
+                    <p>Entre 25.0 e 29.9</p>
+                    <p>Entre 30.0 e 34.9</p>
+                    <p>Entre 35.0 e 39.9</p>
+                    <p>Acima de 40</p>
+                </div>
+
+                <div class="classificação">
+                    <h2>classificação</h2>
+                    <p>Abaixo do peso</p>
+                    <p>Peso ideal</p>
+                    <p>Levemente acima do peso</p>
+                    <p>Obesidade grau I</p>
+                    <p>Obesidade grau II (severa)</p>
+                    <p>Obesidade grau III (mórbida)</p>
+                </div>
+            </div>
+        </header>
+
+        <form class="form">
+            <fieldset>
+                <legend>
+                    Calcule seu IMC
+                </legend>
+
+                <div class="form-content">
+                    <label for="peso">Peso:</label>
+                    <input type="text" name="peso" id="peso" placeholder="Seu peso">
+                </div>
+                <div class="form-content">
+                    <label for="altura">Altura:</label>
+                    <input type="text" name="altura" id="altura" placeholder="Sua altura">
+                </div>
+                <div class="form-content-button">
+                    <button type="submit">Calcular</button>
+                </div>
+            </fieldset>
+        </form>
+
+        <div class="resultado-content">
+            <div class="resultado resultado-style"></div>
+        </div>
+    </section>
+
+    <script src="./assets/js/script.js"></script>
+</body>
+
+</html>
