@@ -113,7 +113,7 @@ html {
 }
 
 .paragrafo-resultado-false {
-    background: #ff8080;
+    background: #fa31314d;
     color: var(--white-color);
     font-size: 1.2rem;
 }
